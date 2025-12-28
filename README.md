@@ -14,6 +14,7 @@ Instead of trying to predict exact stock prices (which is nearly impossible), th
 - Predict UP → Buy at opening, sell at closing
 - Predict DOWN → Don't buy (or sell if we own it)
 
+
 ## Results
 
 **Test Set Performance:**
@@ -23,7 +24,7 @@ Instead of trying to predict exact stock prices (which is nearly impossible), th
 
 Yeah, 51.55% doesn't sound impressive, but in stock trading, even a 1-2% edge over random can be profitable. The model correctly identifies market direction slightly better than a coin flip.
 
-## Dataset
+## Dataset (From StrataScratch)
 
 Amazon stock data from 1997 to 2020, split into three periods:
 - **Training (1997-2016):** 4,760 trading days
